@@ -1,0 +1,301 @@
+[0.113s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.113s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c5096f40d00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c5096f40700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c5096f40700>>)
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.299s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/om/trac_kdl_test'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trac_ik/trac_ik' with type 'ros.ament_cmake' and name 'trac_ik'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_examples) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trac_ik/trac_ik_examples' with type 'ros.ament_cmake' and name 'trac_ik_examples'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_kinematics_plugin) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_lib) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trac_ik/trac_ik_lib' with type 'ros.ament_cmake' and name 'trac_ik_lib'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_python) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_python) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/trac_ik/trac_ik_python) ignored
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.358s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/om/ros2_ws/install
+[0.359s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 385 installed packages in /opt/ros/humble
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_target' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_clean_cache' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_clean_first' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'cmake_force_configure' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'ament_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'catkin_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_lib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.416s] DEBUG:colcon.colcon_core.verb:Building package 'trac_ik_lib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/om/trac_kdl_test/build/trac_ik_lib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/om/trac_kdl_test/install/trac_ik_lib', 'merge_install': False, 'path': '/home/om/trac_kdl_test/src/trac_ik/trac_ik_lib', 'symlink_install': False, 'test_result_base': None}
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_examples' build argument 'cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_examples' build argument 'cmake_target' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'trac_ik_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.416s] DEBUG:colcon.colcon_core.verb:Building package 'trac_ik_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/om/trac_kdl_test/build/trac_ik_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/om/trac_kdl_test/install/trac_ik_examples', 'merge_install': False, 'path': '/home/om/trac_kdl_test/src/trac_ik/trac_ik_examples', 'symlink_install': False, 'test_result_base': None}
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_target' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_clean_cache' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_clean_first' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'cmake_force_configure' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'ament_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'catkin_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'trac_ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.417s] DEBUG:colcon.colcon_core.verb:Building package 'trac_ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/om/trac_kdl_test/build/trac_ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/om/trac_kdl_test/install/trac_ik', 'merge_install': False, 'path': '/home/om/trac_kdl_test/src/trac_ik/trac_ik', 'symlink_install': False, 'test_result_base': None}
+[0.417s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.418s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.418s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/om/trac_kdl_test/src/trac_ik/trac_ik_lib' with build type 'ament_cmake'
+[0.418s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/om/trac_kdl_test/src/trac_ik/trac_ik_lib'
+[0.421s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.421s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/trac_kdl_test/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/om/trac_kdl_test/src/trac_ik/trac_ik_lib -DCMAKE_INSTALL_PREFIX=/home/om/trac_kdl_test/install/trac_ik_lib
+[2.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/trac_kdl_test/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/om/trac_kdl_test/src/trac_ik/trac_ik_lib -DCMAKE_INSTALL_PREFIX=/home/om/trac_kdl_test/install/trac_ik_lib
+[2.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/trac_kdl_test/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/om/trac_kdl_test/build/trac_ik_lib -- -j8 -l8
+[12.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/trac_kdl_test/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/om/trac_kdl_test/build/trac_ik_lib -- -j8 -l8
+[12.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/trac_kdl_test/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/om/trac_kdl_test/build/trac_ik_lib
+[12.924s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_lib)
+[12.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/trac_kdl_test/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/om/trac_kdl_test/build/trac_ik_lib
+[12.926s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_lib' for CMake module files
+[12.926s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_lib' for CMake config files
+[12.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'cmake_prefix_path')
+[12.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.ps1'
+[12.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.dsv'
+[12.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.sh'
+[12.928s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_lib/lib'
+[12.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'ld_library_path_lib')
+[12.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.ps1'
+[12.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.dsv'
+[12.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.sh'
+[12.929s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_lib/bin'
+[12.929s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_lib/lib/pkgconfig/trac_ik_lib.pc'
+[12.929s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_lib/lib/python3.10/site-packages'
+[12.929s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_lib/bin'
+[12.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/package.ps1'
+[12.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/package.dsv'
+[12.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/package.sh'
+[12.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/package.bash'
+[12.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/package.zsh'
+[12.932s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/trac_kdl_test/install/trac_ik_lib/share/colcon-core/packages/trac_ik_lib)
+[12.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_lib)
+[12.966s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_lib' for CMake module files
+[12.967s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_lib' for CMake config files
+[12.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'cmake_prefix_path')
+[12.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.ps1'
+[12.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.dsv'
+[12.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/hook/cmake_prefix_path.sh'
+[12.968s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_lib/lib'
+[12.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_lib', 'ld_library_path_lib')
+[12.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.ps1'
+[12.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.dsv'
+[12.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/hook/ld_library_path_lib.sh'
+[12.969s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_lib/bin'
+[12.969s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_lib/lib/pkgconfig/trac_ik_lib.pc'
+[12.969s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_lib/lib/python3.10/site-packages'
+[12.969s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_lib/bin'
+[12.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/package.ps1'
+[12.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/package.dsv'
+[12.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/package.sh'
+[12.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/package.bash'
+[12.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/package.zsh'
+[12.971s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/trac_kdl_test/install/trac_ik_lib/share/colcon-core/packages/trac_ik_lib)
+[12.971s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/om/trac_kdl_test/src/trac_ik/trac_ik_examples' with build type 'ament_cmake'
+[12.971s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/om/trac_kdl_test/src/trac_ik/trac_ik_examples'
+[12.971s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.971s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/trac_kdl_test/build/trac_ik_examples': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/om/trac_kdl_test/src/trac_ik/trac_ik_examples -DCMAKE_INSTALL_PREFIX=/home/om/trac_kdl_test/install/trac_ik_examples
+[14.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/trac_kdl_test/build/trac_ik_examples' returned '0': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/om/trac_kdl_test/src/trac_ik/trac_ik_examples -DCMAKE_INSTALL_PREFIX=/home/om/trac_kdl_test/install/trac_ik_examples
+[14.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/trac_kdl_test/build/trac_ik_examples': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/om/trac_kdl_test/build/trac_ik_examples -- -j8 -l8
+[17.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/trac_kdl_test/build/trac_ik_examples' returned '0': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/om/trac_kdl_test/build/trac_ik_examples -- -j8 -l8
+[17.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/trac_kdl_test/build/trac_ik_examples': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/om/trac_kdl_test/build/trac_ik_examples
+[17.930s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_examples)
+[17.930s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_examples' for CMake module files
+[17.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/trac_kdl_test/build/trac_ik_examples' returned '0': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/om/trac_kdl_test/build/trac_ik_examples
+[17.931s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_examples' for CMake config files
+[17.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_examples', 'cmake_prefix_path')
+[17.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/hook/cmake_prefix_path.ps1'
+[17.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/hook/cmake_prefix_path.dsv'
+[17.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/hook/cmake_prefix_path.sh'
+[17.933s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_examples/lib'
+[17.933s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_examples/bin'
+[17.933s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_examples/lib/pkgconfig/trac_ik_examples.pc'
+[17.933s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_examples/lib/python3.10/site-packages'
+[17.933s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_examples/bin'
+[17.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/package.ps1'
+[17.934s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/package.dsv'
+[17.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/package.sh'
+[17.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/package.bash'
+[17.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/package.zsh'
+[17.935s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/trac_kdl_test/install/trac_ik_examples/share/colcon-core/packages/trac_ik_examples)
+[17.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik_examples)
+[17.959s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_examples' for CMake module files
+[17.959s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_examples' for CMake config files
+[17.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik_examples', 'cmake_prefix_path')
+[17.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/hook/cmake_prefix_path.ps1'
+[17.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/hook/cmake_prefix_path.dsv'
+[17.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/hook/cmake_prefix_path.sh'
+[17.960s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_examples/lib'
+[17.960s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_examples/bin'
+[17.960s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_examples/lib/pkgconfig/trac_ik_examples.pc'
+[17.960s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_examples/lib/python3.10/site-packages'
+[17.961s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik_examples/bin'
+[17.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/package.ps1'
+[17.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/package.dsv'
+[17.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/package.sh'
+[17.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/package.bash'
+[17.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/package.zsh'
+[17.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/trac_kdl_test/install/trac_ik_examples/share/colcon-core/packages/trac_ik_examples)
+[17.962s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/om/trac_kdl_test/src/trac_ik/trac_ik' with build type 'ament_cmake'
+[17.963s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/om/trac_kdl_test/src/trac_ik/trac_ik'
+[17.963s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.963s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/trac_kdl_test/build/trac_ik': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/om/trac_kdl_test/src/trac_ik/trac_ik -DCMAKE_INSTALL_PREFIX=/home/om/trac_kdl_test/install/trac_ik
+[18.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/trac_kdl_test/build/trac_ik' returned '0': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/om/trac_kdl_test/src/trac_ik/trac_ik -DCMAKE_INSTALL_PREFIX=/home/om/trac_kdl_test/install/trac_ik
+[18.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/trac_kdl_test/build/trac_ik': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/om/trac_kdl_test/build/trac_ik -- -j8 -l8
+[18.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/trac_kdl_test/build/trac_ik' returned '0': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/om/trac_kdl_test/build/trac_ik -- -j8 -l8
+[18.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/trac_kdl_test/build/trac_ik': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/om/trac_kdl_test/build/trac_ik
+[18.554s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik)
+[18.554s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik' for CMake module files
+[18.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/trac_kdl_test/build/trac_ik' returned '0': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/om/trac_kdl_test/build/trac_ik
+[18.555s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik' for CMake config files
+[18.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik', 'cmake_prefix_path')
+[18.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.ps1'
+[18.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.dsv'
+[18.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.sh'
+[18.556s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik/bin'
+[18.556s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik/lib/pkgconfig/trac_ik.pc'
+[18.557s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik/lib/python3.10/site-packages'
+[18.557s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik/bin'
+[18.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/package.ps1'
+[18.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/package.dsv'
+[18.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/package.sh'
+[18.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/package.bash'
+[18.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/package.zsh'
+[18.558s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/trac_kdl_test/install/trac_ik/share/colcon-core/packages/trac_ik)
+[18.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trac_ik)
+[18.578s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik' for CMake module files
+[18.579s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik' for CMake config files
+[18.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('trac_ik', 'cmake_prefix_path')
+[18.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.ps1'
+[18.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.dsv'
+[18.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/hook/cmake_prefix_path.sh'
+[18.580s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik/bin'
+[18.580s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik/lib/pkgconfig/trac_ik.pc'
+[18.580s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik/lib/python3.10/site-packages'
+[18.581s] Level 1:colcon.colcon_core.environment:checking '/home/om/trac_kdl_test/install/trac_ik/bin'
+[18.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/package.ps1'
+[18.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/package.dsv'
+[18.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/package.sh'
+[18.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/package.bash'
+[18.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/trac_kdl_test/install/trac_ik/share/trac_ik/package.zsh'
+[18.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/trac_kdl_test/install/trac_ik/share/colcon-core/packages/trac_ik)
+[18.582s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.583s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.588s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.588s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.588s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.601s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.601s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/om/trac_kdl_test/install/local_setup.ps1'
+[18.603s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/om/trac_kdl_test/install/_local_setup_util_ps1.py'
+[18.604s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/om/trac_kdl_test/install/setup.ps1'
+[18.605s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/om/trac_kdl_test/install/local_setup.sh'
+[18.606s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/om/trac_kdl_test/install/_local_setup_util_sh.py'
+[18.606s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/om/trac_kdl_test/install/setup.sh'
+[18.607s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/om/trac_kdl_test/install/local_setup.bash'
+[18.607s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/om/trac_kdl_test/install/setup.bash'
+[18.608s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/om/trac_kdl_test/install/local_setup.zsh'
+[18.608s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/om/trac_kdl_test/install/setup.zsh'

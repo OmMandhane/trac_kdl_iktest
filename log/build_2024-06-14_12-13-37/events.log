@@ -1,0 +1,403 @@
+[0.000000] (-) TimerEvent: {}
+[0.000435] (trac_ik_lib) JobQueued: {'identifier': 'trac_ik_lib', 'dependencies': OrderedDict()}
+[0.000497] (trac_ik_examples) JobQueued: {'identifier': 'trac_ik_examples', 'dependencies': OrderedDict([('trac_ik_lib', '/home/om/trac_kdl_test/install/trac_ik_lib')])}
+[0.000541] (trac_ik) JobQueued: {'identifier': 'trac_ik', 'dependencies': OrderedDict([('trac_ik_lib', '/home/om/trac_kdl_test/install/trac_ik_lib'), ('trac_ik_examples', '/home/om/trac_kdl_test/install/trac_ik_examples')])}
+[0.000581] (trac_ik_lib) JobStarted: {'identifier': 'trac_ik_lib'}
+[0.009911] (trac_ik_lib) JobProgress: {'identifier': 'trac_ik_lib', 'progress': 'cmake'}
+[0.010315] (trac_ik_lib) Command: {'cmd': ['/usr/bin/cmake', '/home/om/trac_kdl_test/src/trac_ik/trac_ik_lib', '-DCMAKE_INSTALL_PREFIX=/home/om/trac_kdl_test/install/trac_ik_lib'], 'cwd': '/home/om/trac_kdl_test/build/trac_ik_lib', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/om/ros2_ws/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/trac_kdl_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1339'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9766'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/om/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:32303'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-VivoBook-ASUSLaptop-X421IAY-M413IA:@/tmp/.ICE-unix/1480,unix/om-VivoBook-ASUSLaptop-X421IAY-M413IA:/tmp/.ICE-unix/1480'), ('INVOCATION_ID', '3a3e0acb3e044d19a0a6532f0449cf31'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KUT5O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:07f3a06c-e02f-4bcd-8da7-a895c8bb1a4f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/trac_kdl_test/build/trac_ik_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[0.099084] (-) TimerEvent: {}
+[0.116187] (trac_ik_lib) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.186745] (trac_ik_lib) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.198473] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199233] (-) TimerEvent: {}
+[0.279091] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.288263] (trac_ik_lib) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.288768] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.289484] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.293774] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299347] (-) TimerEvent: {}
+[0.386246] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.396393] (trac_ik_lib) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.396736] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.397145] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.399430] (-) TimerEvent: {}
+[0.401654] (trac_ik_lib) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499570] (-) TimerEvent: {}
+[0.571225] (trac_ik_lib) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.599709] (-) TimerEvent: {}
+[0.691183] (trac_ik_lib) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.700047] (-) TimerEvent: {}
+[0.701349] (trac_ik_lib) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.704011] (trac_ik_lib) StdoutLine: {'line': b'-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)\n'}
+[0.721022] (trac_ik_lib) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.737763] (trac_ik_lib) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.794825] (trac_ik_lib) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.800159] (-) TimerEvent: {}
+[0.803438] (trac_ik_lib) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.817179] (trac_ik_lib) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.840050] (trac_ik_lib) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.869377] (trac_ik_lib) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900271] (-) TimerEvent: {}
+[0.974155] (trac_ik_lib) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.978738] (trac_ik_lib) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.000413] (-) TimerEvent: {}
+[1.029049] (trac_ik_lib) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.043676] (trac_ik_lib) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.100556] (-) TimerEvent: {}
+[1.131481] (trac_ik_lib) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.131821] (trac_ik_lib) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.200704] (-) TimerEvent: {}
+[1.218385] (trac_ik_lib) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.219715] (trac_ik_lib) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.300796] (-) TimerEvent: {}
+[1.401248] (-) TimerEvent: {}
+[1.436419] (trac_ik_lib) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[1.489589] (trac_ik_lib) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.501357] (-) TimerEvent: {}
+[1.590177] (trac_ik_lib) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.591335] (trac_ik_lib) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.591446] (trac_ik_lib) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.592450] (trac_ik_lib) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.593513] (trac_ik_lib) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.595428] (trac_ik_lib) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.601504] (-) TimerEvent: {}
+[1.606093] (trac_ik_lib) StdoutLine: {'line': b'-- Generating done\n'}
+[1.607864] (trac_ik_lib) StdoutLine: {'line': b'-- Build files have been written to: /home/om/trac_kdl_test/build/trac_ik_lib\n'}
+[1.616778] (trac_ik_lib) CommandEnded: {'returncode': 0}
+[1.617907] (trac_ik_lib) JobProgress: {'identifier': 'trac_ik_lib', 'progress': 'build'}
+[1.620293] (trac_ik_lib) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/om/trac_kdl_test/build/trac_ik_lib', '--', '-j8', '-l8'], 'cwd': '/home/om/trac_kdl_test/build/trac_ik_lib', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/om/ros2_ws/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/trac_kdl_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1339'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9766'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/om/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:32303'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-VivoBook-ASUSLaptop-X421IAY-M413IA:@/tmp/.ICE-unix/1480,unix/om-VivoBook-ASUSLaptop-X421IAY-M413IA:/tmp/.ICE-unix/1480'), ('INVOCATION_ID', '3a3e0acb3e044d19a0a6532f0449cf31'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KUT5O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:07f3a06c-e02f-4bcd-8da7-a895c8bb1a4f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/trac_kdl_test/build/trac_ik_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[1.677621] (trac_ik_lib) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/trac_ik_lib.dir/src/nlopt_ik.cpp.o\x1b[0m\n'}
+[1.678074] (trac_ik_lib) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/trac_ik_lib.dir/src/trac_ik.cpp.o\x1b[0m\n'}
+[1.678221] (trac_ik_lib) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/trac_ik_lib.dir/src/kdl_tl.cpp.o\x1b[0m\n'}
+[1.701650] (-) TimerEvent: {}
+[1.802626] (-) TimerEvent: {}
+[1.903026] (-) TimerEvent: {}
+[2.003415] (-) TimerEvent: {}
+[2.103820] (-) TimerEvent: {}
+[2.204246] (-) TimerEvent: {}
+[2.304662] (-) TimerEvent: {}
+[2.405073] (-) TimerEvent: {}
+[2.505485] (-) TimerEvent: {}
+[2.605885] (-) TimerEvent: {}
+[2.706283] (-) TimerEvent: {}
+[2.806691] (-) TimerEvent: {}
+[2.907100] (-) TimerEvent: {}
+[3.007506] (-) TimerEvent: {}
+[3.107908] (-) TimerEvent: {}
+[3.208326] (-) TimerEvent: {}
+[3.308744] (-) TimerEvent: {}
+[3.409207] (-) TimerEvent: {}
+[3.509829] (-) TimerEvent: {}
+[3.610217] (-) TimerEvent: {}
+[3.710610] (-) TimerEvent: {}
+[3.811005] (-) TimerEvent: {}
+[3.911401] (-) TimerEvent: {}
+[4.011803] (-) TimerEvent: {}
+[4.112195] (-) TimerEvent: {}
+[4.212584] (-) TimerEvent: {}
+[4.312977] (-) TimerEvent: {}
+[4.413366] (-) TimerEvent: {}
+[4.513756] (-) TimerEvent: {}
+[4.614150] (-) TimerEvent: {}
+[4.714562] (-) TimerEvent: {}
+[4.814963] (-) TimerEvent: {}
+[4.915365] (-) TimerEvent: {}
+[5.016228] (-) TimerEvent: {}
+[5.116837] (-) TimerEvent: {}
+[5.217233] (-) TimerEvent: {}
+[5.317842] (-) TimerEvent: {}
+[5.418246] (-) TimerEvent: {}
+[5.518648] (-) TimerEvent: {}
+[5.619045] (-) TimerEvent: {}
+[5.719641] (-) TimerEvent: {}
+[5.820039] (-) TimerEvent: {}
+[5.920454] (-) TimerEvent: {}
+[6.020859] (-) TimerEvent: {}
+[6.121265] (-) TimerEvent: {}
+[6.221686] (-) TimerEvent: {}
+[6.322090] (-) TimerEvent: {}
+[6.422468] (-) TimerEvent: {}
+[6.522878] (-) TimerEvent: {}
+[6.623270] (-) TimerEvent: {}
+[6.723661] (-) TimerEvent: {}
+[6.824051] (-) TimerEvent: {}
+[6.924450] (-) TimerEvent: {}
+[7.024845] (-) TimerEvent: {}
+[7.125244] (-) TimerEvent: {}
+[7.225639] (-) TimerEvent: {}
+[7.326053] (-) TimerEvent: {}
+[7.426453] (-) TimerEvent: {}
+[7.526857] (-) TimerEvent: {}
+[7.627258] (-) TimerEvent: {}
+[7.727633] (-) TimerEvent: {}
+[7.827975] (-) TimerEvent: {}
+[7.928377] (-) TimerEvent: {}
+[8.028787] (-) TimerEvent: {}
+[8.129192] (-) TimerEvent: {}
+[8.229604] (-) TimerEvent: {}
+[8.330037] (-) TimerEvent: {}
+[8.430446] (-) TimerEvent: {}
+[8.530860] (-) TimerEvent: {}
+[8.631261] (-) TimerEvent: {}
+[8.731672] (-) TimerEvent: {}
+[8.832091] (-) TimerEvent: {}
+[8.932500] (-) TimerEvent: {}
+[9.033103] (-) TimerEvent: {}
+[9.133692] (-) TimerEvent: {}
+[9.234121] (-) TimerEvent: {}
+[9.334523] (-) TimerEvent: {}
+[9.434933] (-) TimerEvent: {}
+[9.535341] (-) TimerEvent: {}
+[9.635716] (-) TimerEvent: {}
+[9.736029] (-) TimerEvent: {}
+[9.836429] (-) TimerEvent: {}
+[9.936848] (-) TimerEvent: {}
+[10.037271] (-) TimerEvent: {}
+[10.137673] (-) TimerEvent: {}
+[10.238151] (-) TimerEvent: {}
+[10.338549] (-) TimerEvent: {}
+[10.438955] (-) TimerEvent: {}
+[10.539353] (-) TimerEvent: {}
+[10.639727] (-) TimerEvent: {}
+[10.740105] (-) TimerEvent: {}
+[10.840464] (-) TimerEvent: {}
+[10.940824] (-) TimerEvent: {}
+[11.041179] (-) TimerEvent: {}
+[11.141536] (-) TimerEvent: {}
+[11.242197] (-) TimerEvent: {}
+[11.342540] (-) TimerEvent: {}
+[11.442888] (-) TimerEvent: {}
+[11.543229] (-) TimerEvent: {}
+[11.643570] (-) TimerEvent: {}
+[11.743922] (-) TimerEvent: {}
+[11.844273] (-) TimerEvent: {}
+[11.944618] (-) TimerEvent: {}
+[12.044995] (-) TimerEvent: {}
+[12.139179] (trac_ik_lib) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libtrac_ik_lib.so\x1b[0m\n'}
+[12.145124] (-) TimerEvent: {}
+[12.245506] (-) TimerEvent: {}
+[12.345954] (-) TimerEvent: {}
+[12.439390] (trac_ik_lib) StdoutLine: {'line': b'[100%] Built target trac_ik_lib\n'}
+[12.446085] (-) TimerEvent: {}
+[12.450691] (trac_ik_lib) CommandEnded: {'returncode': 0}
+[12.482234] (trac_ik_lib) JobProgress: {'identifier': 'trac_ik_lib', 'progress': 'install'}
+[12.490929] (trac_ik_lib) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/om/trac_kdl_test/build/trac_ik_lib'], 'cwd': '/home/om/trac_kdl_test/build/trac_ik_lib', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/om/ros2_ws/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/trac_kdl_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1339'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9766'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/om/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:32303'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-VivoBook-ASUSLaptop-X421IAY-M413IA:@/tmp/.ICE-unix/1480,unix/om-VivoBook-ASUSLaptop-X421IAY-M413IA:/tmp/.ICE-unix/1480'), ('INVOCATION_ID', '3a3e0acb3e044d19a0a6532f0449cf31'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KUT5O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:07f3a06c-e02f-4bcd-8da7-a895c8bb1a4f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/trac_kdl_test/build/trac_ik_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[12.498079] (trac_ik_lib) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.498364] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/environment/library_path.sh\n'}
+[12.498516] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/environment/library_path.dsv\n'}
+[12.498880] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/include\n'}
+[12.499037] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/include/trac_ik\n'}
+[12.499167] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/include/trac_ik/trac_ik.hpp\n'}
+[12.499292] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/include/trac_ik/nlopt_ik.hpp\n'}
+[12.499414] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/include/trac_ik/kdl_tl.hpp\n'}
+[12.499537] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/include/trac_ik/math3d.h\n'}
+[12.499660] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/include/trac_ik/visibility_control.hpp\n'}
+[12.499783] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/include/trac_ik/dual_quaternion.h\n'}
+[12.499906] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/lib/libtrac_ik_lib.so\n'}
+[12.502209] (trac_ik_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/om/trac_kdl_test/install/trac_ik_lib/lib/libtrac_ik_lib.so" to ""\n'}
+[12.502595] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/ament_index/resource_index/package_run_dependencies/trac_ik_lib\n'}
+[12.502826] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/ament_index/resource_index/parent_prefix_path/trac_ik_lib\n'}
+[12.503070] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/environment/ament_prefix_path.sh\n'}
+[12.503170] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/environment/ament_prefix_path.dsv\n'}
+[12.503222] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/environment/path.sh\n'}
+[12.503264] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/environment/path.dsv\n'}
+[12.503314] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/local_setup.bash\n'}
+[12.503356] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/local_setup.sh\n'}
+[12.503400] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/local_setup.zsh\n'}
+[12.503444] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/local_setup.dsv\n'}
+[12.503499] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/package.dsv\n'}
+[12.503542] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/ament_index/resource_index/packages/trac_ik_lib\n'}
+[12.503590] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport.cmake\n'}
+[12.503640] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport-noconfig.cmake\n'}
+[12.503682] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.503734] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.503779] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/cmake/trac_ik_libConfig.cmake\n'}
+[12.503823] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/cmake/trac_ik_libConfig-version.cmake\n'}
+[12.503874] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/package.xml\n'}
+[12.505387] (trac_ik_lib) CommandEnded: {'returncode': 0}
+[12.547365] (-) TimerEvent: {}
+[12.552778] (trac_ik_lib) JobEnded: {'identifier': 'trac_ik_lib', 'rc': 0}
+[12.553277] (trac_ik_examples) JobStarted: {'identifier': 'trac_ik_examples'}
+[12.560402] (trac_ik_examples) JobProgress: {'identifier': 'trac_ik_examples', 'progress': 'cmake'}
+[12.561139] (trac_ik_examples) Command: {'cmd': ['/usr/bin/cmake', '/home/om/trac_kdl_test/src/trac_ik/trac_ik_examples', '-DCMAKE_INSTALL_PREFIX=/home/om/trac_kdl_test/install/trac_ik_examples'], 'cwd': '/home/om/trac_kdl_test/build/trac_ik_examples', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/om/trac_kdl_test/install/trac_ik_lib/lib:/home/om/ros2_ws/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/trac_kdl_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1339'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9766'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/om/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:32303'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-VivoBook-ASUSLaptop-X421IAY-M413IA:@/tmp/.ICE-unix/1480,unix/om-VivoBook-ASUSLaptop-X421IAY-M413IA:/tmp/.ICE-unix/1480'), ('INVOCATION_ID', '3a3e0acb3e044d19a0a6532f0449cf31'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KUT5O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:07f3a06c-e02f-4bcd-8da7-a895c8bb1a4f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/trac_kdl_test/build/trac_ik_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[12.612591] (trac_ik_examples) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[12.647523] (-) TimerEvent: {}
+[12.659107] (trac_ik_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[12.665084] (trac_ik_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[12.729641] (trac_ik_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[12.736512] (trac_ik_examples) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[12.736916] (trac_ik_examples) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[12.737161] (trac_ik_examples) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[12.739293] (trac_ik_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[12.747640] (-) TimerEvent: {}
+[12.806469] (trac_ik_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[12.812988] (trac_ik_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[12.813272] (trac_ik_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[12.813603] (trac_ik_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[12.815631] (trac_ik_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[12.847791] (-) TimerEvent: {}
+[12.939462] (trac_ik_examples) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[12.947907] (-) TimerEvent: {}
+[13.016372] (trac_ik_examples) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[13.048032] (-) TimerEvent: {}
+[13.053917] (trac_ik_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[13.058768] (trac_ik_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[13.066378] (trac_ik_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[13.078722] (trac_ik_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.096283] (trac_ik_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.148154] (-) TimerEvent: {}
+[13.159532] (trac_ik_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[13.162101] (trac_ik_examples) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[13.191746] (trac_ik_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[13.200603] (trac_ik_examples) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[13.248319] (-) TimerEvent: {}
+[13.266465] (trac_ik_examples) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.266790] (trac_ik_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.333954] (trac_ik_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[13.335284] (trac_ik_examples) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.348436] (-) TimerEvent: {}
+[13.448806] (-) TimerEvent: {}
+[13.480545] (trac_ik_examples) StdoutLine: {'line': b'-- Found trac_ik_lib: 0.1.0 (/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/cmake)\n'}
+[13.488643] (trac_ik_examples) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[13.489701] (trac_ik_examples) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[13.489971] (trac_ik_examples) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[13.529073] (trac_ik_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.548945] (-) TimerEvent: {}
+[13.597174] (trac_ik_examples) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.605595] (trac_ik_examples) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.606060] (trac_ik_examples) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[13.606274] (trac_ik_examples) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.607181] (trac_ik_examples) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[13.607429] (trac_ik_examples) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[13.607782] (trac_ik_examples) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[13.608242] (trac_ik_examples) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.608596] (trac_ik_examples) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[13.609383] (trac_ik_examples) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.609478] (trac_ik_examples) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.609811] (trac_ik_examples) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.610788] (trac_ik_examples) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.617970] (trac_ik_examples) StdoutLine: {'line': b'-- Generating done\n'}
+[13.619098] (trac_ik_examples) StdoutLine: {'line': b'-- Build files have been written to: /home/om/trac_kdl_test/build/trac_ik_examples\n'}
+[13.626166] (trac_ik_examples) CommandEnded: {'returncode': 0}
+[13.627099] (trac_ik_examples) JobProgress: {'identifier': 'trac_ik_examples', 'progress': 'build'}
+[13.628153] (trac_ik_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/om/trac_kdl_test/build/trac_ik_examples', '--', '-j8', '-l8'], 'cwd': '/home/om/trac_kdl_test/build/trac_ik_examples', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/om/trac_kdl_test/install/trac_ik_lib/lib:/home/om/ros2_ws/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/trac_kdl_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1339'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9766'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/om/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:32303'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-VivoBook-ASUSLaptop-X421IAY-M413IA:@/tmp/.ICE-unix/1480,unix/om-VivoBook-ASUSLaptop-X421IAY-M413IA:/tmp/.ICE-unix/1480'), ('INVOCATION_ID', '3a3e0acb3e044d19a0a6532f0449cf31'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KUT5O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:07f3a06c-e02f-4bcd-8da7-a895c8bb1a4f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/trac_kdl_test/build/trac_ik_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[13.649072] (-) TimerEvent: {}
+[13.675228] (trac_ik_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ik_tests.dir/src/ik_tests.cpp.o\x1b[0m\n'}
+[13.749197] (-) TimerEvent: {}
+[13.849526] (-) TimerEvent: {}
+[13.950275] (-) TimerEvent: {}
+[14.050611] (-) TimerEvent: {}
+[14.150954] (-) TimerEvent: {}
+[14.251288] (-) TimerEvent: {}
+[14.351610] (-) TimerEvent: {}
+[14.451957] (-) TimerEvent: {}
+[14.552529] (-) TimerEvent: {}
+[14.652972] (-) TimerEvent: {}
+[14.753318] (-) TimerEvent: {}
+[14.853677] (-) TimerEvent: {}
+[14.954187] (-) TimerEvent: {}
+[15.054525] (-) TimerEvent: {}
+[15.154913] (-) TimerEvent: {}
+[15.255216] (-) TimerEvent: {}
+[15.355543] (-) TimerEvent: {}
+[15.455876] (-) TimerEvent: {}
+[15.556234] (-) TimerEvent: {}
+[15.656595] (-) TimerEvent: {}
+[15.756926] (-) TimerEvent: {}
+[15.857331] (-) TimerEvent: {}
+[15.957827] (-) TimerEvent: {}
+[16.058278] (-) TimerEvent: {}
+[16.158771] (-) TimerEvent: {}
+[16.259126] (-) TimerEvent: {}
+[16.359529] (-) TimerEvent: {}
+[16.460212] (-) TimerEvent: {}
+[16.560635] (-) TimerEvent: {}
+[16.661045] (-) TimerEvent: {}
+[16.761457] (-) TimerEvent: {}
+[16.861835] (-) TimerEvent: {}
+[16.962253] (-) TimerEvent: {}
+[17.062682] (-) TimerEvent: {}
+[17.163089] (-) TimerEvent: {}
+[17.263452] (-) TimerEvent: {}
+[17.278475] (trac_ik_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ik_tests\x1b[0m\n'}
+[17.363618] (-) TimerEvent: {}
+[17.463565] (trac_ik_examples) StdoutLine: {'line': b'[100%] Built target ik_tests\n'}
+[17.463794] (-) TimerEvent: {}
+[17.473869] (trac_ik_examples) CommandEnded: {'returncode': 0}
+[17.499047] (trac_ik_examples) JobProgress: {'identifier': 'trac_ik_examples', 'progress': 'install'}
+[17.499863] (trac_ik_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/om/trac_kdl_test/build/trac_ik_examples'], 'cwd': '/home/om/trac_kdl_test/build/trac_ik_examples', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/om/trac_kdl_test/install/trac_ik_lib/lib:/home/om/ros2_ws/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/trac_kdl_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1339'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9766'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/om/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:32303'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-VivoBook-ASUSLaptop-X421IAY-M413IA:@/tmp/.ICE-unix/1480,unix/om-VivoBook-ASUSLaptop-X421IAY-M413IA:/tmp/.ICE-unix/1480'), ('INVOCATION_ID', '3a3e0acb3e044d19a0a6532f0449cf31'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KUT5O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:07f3a06c-e02f-4bcd-8da7-a895c8bb1a4f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/trac_kdl_test/build/trac_ik_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[17.507077] (trac_ik_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.507466] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/lib/trac_ik_examples/ik_tests\n'}
+[17.507755] (trac_ik_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/om/trac_kdl_test/install/trac_ik_examples/lib/trac_ik_examples/ik_tests" to ""\n'}
+[17.507932] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/launch\n'}
+[17.508134] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/launch/pr2_arm.launch.py\n'}
+[17.508274] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/launch/ur5.urdf\n'}
+[17.508390] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/launch/pr2.urdf\n'}
+[17.508499] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/ament_index/resource_index/package_run_dependencies/trac_ik_examples\n'}
+[17.508620] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/ament_index/resource_index/parent_prefix_path/trac_ik_examples\n'}
+[17.508734] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/environment/ament_prefix_path.sh\n'}
+[17.508863] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/environment/ament_prefix_path.dsv\n'}
+[17.508982] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/environment/path.sh\n'}
+[17.509104] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/environment/path.dsv\n'}
+[17.509215] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/local_setup.bash\n'}
+[17.509312] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/local_setup.sh\n'}
+[17.509446] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/local_setup.zsh\n'}
+[17.509541] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/local_setup.dsv\n'}
+[17.509634] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/package.dsv\n'}
+[17.509741] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/ament_index/resource_index/packages/trac_ik_examples\n'}
+[17.509804] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/cmake/trac_ik_examplesConfig.cmake\n'}
+[17.509850] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/cmake/trac_ik_examplesConfig-version.cmake\n'}
+[17.509896] (trac_ik_examples) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/package.xml\n'}
+[17.511036] (trac_ik_examples) CommandEnded: {'returncode': 0}
+[17.544062] (trac_ik_examples) JobEnded: {'identifier': 'trac_ik_examples', 'rc': 0}
+[17.544826] (trac_ik) JobStarted: {'identifier': 'trac_ik'}
+[17.553928] (trac_ik) JobProgress: {'identifier': 'trac_ik', 'progress': 'cmake'}
+[17.554463] (trac_ik) Command: {'cmd': ['/usr/bin/cmake', '/home/om/trac_kdl_test/src/trac_ik/trac_ik', '-DCMAKE_INSTALL_PREFIX=/home/om/trac_kdl_test/install/trac_ik'], 'cwd': '/home/om/trac_kdl_test/build/trac_ik', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/om/trac_kdl_test/install/trac_ik_lib/lib:/home/om/ros2_ws/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/trac_kdl_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1339'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9766'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/om/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:32303'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-VivoBook-ASUSLaptop-X421IAY-M413IA:@/tmp/.ICE-unix/1480,unix/om-VivoBook-ASUSLaptop-X421IAY-M413IA:/tmp/.ICE-unix/1480'), ('INVOCATION_ID', '3a3e0acb3e044d19a0a6532f0449cf31'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KUT5O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:07f3a06c-e02f-4bcd-8da7-a895c8bb1a4f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/trac_kdl_test/build/trac_ik'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[17.563931] (-) TimerEvent: {}
+[17.603476] (trac_ik) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[17.653878] (trac_ik) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[17.660600] (trac_ik) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[17.664049] (-) TimerEvent: {}
+[17.722305] (trac_ik) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[17.728950] (trac_ik) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[17.729223] (trac_ik) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[17.729420] (trac_ik) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[17.731690] (trac_ik) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[17.764178] (-) TimerEvent: {}
+[17.801111] (trac_ik) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[17.808477] (trac_ik) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[17.808771] (trac_ik) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[17.808979] (trac_ik) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[17.811340] (trac_ik) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[17.864311] (-) TimerEvent: {}
+[17.934572] (trac_ik) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[17.964435] (-) TimerEvent: {}
+[18.059649] (trac_ik) StdoutLine: {'line': b'-- Configuring done\n'}
+[18.061220] (trac_ik) StdoutLine: {'line': b'-- Generating done\n'}
+[18.061791] (trac_ik) StdoutLine: {'line': b'-- Build files have been written to: /home/om/trac_kdl_test/build/trac_ik\n'}
+[18.064596] (-) TimerEvent: {}
+[18.065596] (trac_ik) CommandEnded: {'returncode': 0}
+[18.066359] (trac_ik) JobProgress: {'identifier': 'trac_ik', 'progress': 'build'}
+[18.066653] (trac_ik) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/om/trac_kdl_test/build/trac_ik', '--', '-j8', '-l8'], 'cwd': '/home/om/trac_kdl_test/build/trac_ik', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/om/trac_kdl_test/install/trac_ik_lib/lib:/home/om/ros2_ws/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/trac_kdl_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1339'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9766'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/om/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:32303'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-VivoBook-ASUSLaptop-X421IAY-M413IA:@/tmp/.ICE-unix/1480,unix/om-VivoBook-ASUSLaptop-X421IAY-M413IA:/tmp/.ICE-unix/1480'), ('INVOCATION_ID', '3a3e0acb3e044d19a0a6532f0449cf31'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KUT5O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:07f3a06c-e02f-4bcd-8da7-a895c8bb1a4f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/trac_kdl_test/build/trac_ik'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[18.103428] (trac_ik) CommandEnded: {'returncode': 0}
+[18.124576] (trac_ik) JobProgress: {'identifier': 'trac_ik', 'progress': 'install'}
+[18.125527] (trac_ik) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/om/trac_kdl_test/build/trac_ik'], 'cwd': '/home/om/trac_kdl_test/build/trac_ik', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'om'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/om/trac_kdl_test/install/trac_ik_lib/lib:/home/om/ros2_ws/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/om'), ('OLDPWD', '/home/om/trac_kdl_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1339'), ('SYSTEMD_EXEC_PID', '1510'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9766'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/om/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'om'), ('JOURNAL_STREAM', '8:32303'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'om'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/om-VivoBook-ASUSLaptop-X421IAY-M413IA:@/tmp/.ICE-unix/1480,unix/om-VivoBook-ASUSLaptop-X421IAY-M413IA:/tmp/.ICE-unix/1480'), ('INVOCATION_ID', '3a3e0acb3e044d19a0a6532f0449cf31'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KUT5O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:07f3a06c-e02f-4bcd-8da7-a895c8bb1a4f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/om/trac_kdl_test/build/trac_ik'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/om/trac_kdl_test/install/trac_ik_examples:/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[18.132059] (trac_ik) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.132271] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik/share/ament_index/resource_index/package_run_dependencies/trac_ik\n'}
+[18.132411] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik/share/ament_index/resource_index/parent_prefix_path/trac_ik\n'}
+[18.132545] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik/share/trac_ik/environment/ament_prefix_path.sh\n'}
+[18.132657] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik/share/trac_ik/environment/ament_prefix_path.dsv\n'}
+[18.132781] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik/share/trac_ik/environment/path.sh\n'}
+[18.132889] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik/share/trac_ik/environment/path.dsv\n'}
+[18.132996] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik/share/trac_ik/local_setup.bash\n'}
+[18.133102] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik/share/trac_ik/local_setup.sh\n'}
+[18.133206] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik/share/trac_ik/local_setup.zsh\n'}
+[18.133326] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik/share/trac_ik/local_setup.dsv\n'}
+[18.133429] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik/share/trac_ik/package.dsv\n'}
+[18.133520] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik/share/ament_index/resource_index/packages/trac_ik\n'}
+[18.133611] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik/share/trac_ik/cmake/trac_ikConfig.cmake\n'}
+[18.133702] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik/share/trac_ik/cmake/trac_ikConfig-version.cmake\n'}
+[18.134115] (trac_ik) StdoutLine: {'line': b'-- Installing: /home/om/trac_kdl_test/install/trac_ik/share/trac_ik/package.xml\n'}
+[18.134868] (trac_ik) CommandEnded: {'returncode': 0}
+[18.163618] (trac_ik) JobEnded: {'identifier': 'trac_ik', 'rc': 0}
+[18.164344] (-) EventReactorShutdown: {}

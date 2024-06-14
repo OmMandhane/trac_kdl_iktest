@@ -1,0 +1,79 @@
+[0.009s] Invoking command in '/home/om/trac_kdl_test/build/trac_ik_examples': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/om/trac_kdl_test/src/trac_ik/trac_ik_examples -DCMAKE_INSTALL_PREFIX=/home/om/trac_kdl_test/install/trac_ik_examples
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.183s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.184s] -- Detecting C compile features
+[0.184s] -- Detecting C compile features - done
+[0.186s] -- Detecting CXX compiler ABI info
+[0.253s] -- Detecting CXX compiler ABI info - done
+[0.260s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.260s] -- Detecting CXX compile features
+[0.260s] -- Detecting CXX compile features - done
+[0.262s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.386s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.463s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.501s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.506s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.513s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.526s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.543s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.606s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.609s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.639s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.647s] -- Looking for pthread.h
+[0.713s] -- Looking for pthread.h - found
+[0.714s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.781s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.782s] -- Found Threads: TRUE  
+[0.927s] -- Found trac_ik_lib: 0.1.0 (/home/om/trac_kdl_test/install/trac_ik_lib/share/trac_ik_lib/cmake)
+[0.936s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.937s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.937s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.976s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.044s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.053s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.053s] -- Configured cppcheck include dirs: 
+[1.053s] -- Configured cppcheck exclude dirs and/or files: 
+[1.054s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.054s] -- Configured cpplint exclude dirs and/or files: 
+[1.055s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.055s] -- Added test 'lint_cmake' to check CMake code style
+[1.055s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.056s] -- Added test 'uncrustify' to check C / C++ code style
+[1.056s] -- Configured uncrustify additional arguments: 
+[1.057s] -- Added test 'xmllint' to check XML markup files
+[1.058s] -- Configuring done
+[1.065s] -- Generating done
+[1.066s] -- Build files have been written to: /home/om/trac_kdl_test/build/trac_ik_examples
+[1.073s] Invoked command in '/home/om/trac_kdl_test/build/trac_ik_examples' returned '0': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/om/trac_kdl_test/src/trac_ik/trac_ik_examples -DCMAKE_INSTALL_PREFIX=/home/om/trac_kdl_test/install/trac_ik_examples
+[1.075s] Invoking command in '/home/om/trac_kdl_test/build/trac_ik_examples': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/om/trac_kdl_test/build/trac_ik_examples -- -j8 -l8
+[1.122s] [ 50%] [32mBuilding CXX object CMakeFiles/ik_tests.dir/src/ik_tests.cpp.o[0m
+[4.725s] [100%] [32m[1mLinking CXX executable ik_tests[0m
+[4.910s] [100%] Built target ik_tests
+[4.921s] Invoked command in '/home/om/trac_kdl_test/build/trac_ik_examples' returned '0': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/om/trac_kdl_test/build/trac_ik_examples -- -j8 -l8
+[4.947s] Invoking command in '/home/om/trac_kdl_test/build/trac_ik_examples': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/om/trac_kdl_test/build/trac_ik_examples
+[4.954s] -- Install configuration: ""
+[4.954s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/lib/trac_ik_examples/ik_tests
+[4.955s] -- Set runtime path of "/home/om/trac_kdl_test/install/trac_ik_examples/lib/trac_ik_examples/ik_tests" to ""
+[4.955s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/launch
+[4.955s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/launch/pr2_arm.launch.py
+[4.955s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/launch/ur5.urdf
+[4.955s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/launch/pr2.urdf
+[4.955s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/ament_index/resource_index/package_run_dependencies/trac_ik_examples
+[4.955s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/ament_index/resource_index/parent_prefix_path/trac_ik_examples
+[4.956s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/environment/ament_prefix_path.sh
+[4.956s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/environment/ament_prefix_path.dsv
+[4.956s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/environment/path.sh
+[4.956s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/environment/path.dsv
+[4.956s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/local_setup.bash
+[4.956s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/local_setup.sh
+[4.956s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/local_setup.zsh
+[4.956s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/local_setup.dsv
+[4.956s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/package.dsv
+[4.957s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/ament_index/resource_index/packages/trac_ik_examples
+[4.957s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/cmake/trac_ik_examplesConfig.cmake
+[4.957s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/cmake/trac_ik_examplesConfig-version.cmake
+[4.957s] -- Installing: /home/om/trac_kdl_test/install/trac_ik_examples/share/trac_ik_examples/package.xml
+[4.959s] Invoked command in '/home/om/trac_kdl_test/build/trac_ik_examples' returned '0': AMENT_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/om/trac_kdl_test/install/trac_ik_lib:/home/om/ros2_ws/install/ur_description:/home/om/ros2_ws/install/ur5_controller:/home/om/ros2_ws/install/trac_ik:/home/om/ros2_ws/install/trac_ik_examples:/home/om/ros2_ws/install/trac_ik_lib:/opt/ros/humble LD_LIBRARY_PATH=/home/om/trac_kdl_test/install/trac_ik_lib/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/om/trac_kdl_test/build/trac_ik_examples

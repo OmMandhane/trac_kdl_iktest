@@ -1,0 +1,96 @@
+[0.175s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/om/trac_kdl_test']
+[0.175s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/om/trac_kdl_test'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7aa878f4da20>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7aa878f4cc40>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7aa878f4cc40>>)
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.405s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/om/trac_kdl_test'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test) by extension 'ros'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test) by extensions ['cmake', 'python']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test) by extension 'cmake'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test) by extension 'python'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test) by extensions ['python_setup_py']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test) by extension 'python_setup_py'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/build) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/build) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/build) ignored
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/install) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/install) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/install) ignored
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/log) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/log) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/log) ignored
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src) by extension 'ros'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src) by extensions ['cmake', 'python']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src) by extension 'cmake'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src) by extension 'python'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src) by extensions ['python_setup_py']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src) by extension 'python_setup_py'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik) by extension 'ros'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik) by extensions ['cmake', 'python']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik) by extension 'cmake'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik) by extension 'python'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik) by extensions ['python_setup_py']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik) by extension 'python_setup_py'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik) by extension 'ignore_ament_install'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik) by extensions ['colcon_pkg']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik) by extension 'ros'
+[0.427s] DEBUG:colcon.colcon_core.package_identification:Package '/home/om/trac_kdl_test/src/trac_ik/trac_ik' with type 'ros.ament_cmake' and name 'trac_ik'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_examples) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_examples) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_examples) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_examples) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_examples) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_examples) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_examples) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_examples) by extension 'ros'
+[0.429s] DEBUG:colcon.colcon_core.package_identification:Package '/home/om/trac_kdl_test/src/trac_ik/trac_ik_examples' with type 'ros.ament_cmake' and name 'trac_ik_examples'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_kinematics_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_kinematics_plugin) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_kinematics_plugin) ignored
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_lib) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_lib) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_lib) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_lib) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_lib) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_lib) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_lib) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_lib) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_lib) by extension 'ros'
+[0.430s] DEBUG:colcon.colcon_core.package_identification:Package '/home/om/trac_kdl_test/src/trac_ik/trac_ik_lib' with type 'ros.ament_cmake' and name 'trac_ik_lib'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_python) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_python) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/om/trac_kdl_test/src/trac_ik/trac_ik_python) ignored
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
